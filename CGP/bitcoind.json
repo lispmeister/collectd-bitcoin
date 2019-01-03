@@ -1,0 +1,55 @@
+{
+        "counter": {
+                "title": "Bitcoin {{PI}} on {{HOST}}",
+                "type": "io",
+                "legend": {
+                        "totalbytesrecv": {
+                                "name": "RX Bytes",
+                                "color": "0000ff"
+                        },
+                        "totalbytessent": {
+                                "name": "TX Bytes",
+                                "color": "00b000"
+                        }
+                }
+        },
+        "gauge": {
+                "title": "Bitcoin {{PI}} on {{HOST}}",
+                "type": "stacked",
+                "legend": {
+                        "size":{
+                                "name": "Blocksize",
+                                "color": "cc5500"
+                        },
+                        "height": {
+                                "name": "Blockheight",
+                                "color": "30a040"
+                        },
+                        "difficulty": {
+                                "name": "Last Difficulty",
+                                "color": "0080a0"
+                        },
+                        "getnetworkhashps": {
+                                "name": "Network Hash/s",
+                                "color": "a000f0"
+                        },
+                        "size": {
+                                "name": "Mempool TX",
+                                "color": "f08000"
+                        },
+                        "bytes": {
+                                "name": "Mempool Bytes",
+                                "color": "40a080"
+                        },
+                        "connections": {
+                                "name": "Connections",
+                                "color": "0000f0"
+                        },
+                        "Satoshi": {
+                                "name": "Satoshi",
+                                "color": "aa3300"
+                        }
+                }
+        }
+
+}
