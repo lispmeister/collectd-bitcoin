@@ -37,3 +37,9 @@ live in `/opt/collectd_plugins`:
     Import "collectd-bitcoin-plugin"
 </Plugin>
 ```
+
+Other
+=====
+example.py A simple script to read getblockhash from your bitcoind node and print the result to the console
+test.py    A simple script that shows how to read bitcoind values and feed them to collectd
+
