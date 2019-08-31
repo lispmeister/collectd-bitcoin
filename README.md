@@ -40,6 +40,8 @@ live in `/opt/collectd_plugins`:
 
 Other
 =====
-example.py A simple script to read getblockhash from your bitcoind node and print the result to the console
-test.py    A simple script that shows how to read bitcoind values and feed them to collectd
+```example.py``` A simple script to read getblockhash from your bitcoind node and print the result to the console
+
+```test.py```   A simple script that shows how to read bitcoind values and feed them to collectd
+
 
