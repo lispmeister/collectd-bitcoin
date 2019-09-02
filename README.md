@@ -44,4 +44,14 @@ Other
 
 ```test.py```   A simple script that shows how to read bitcoind values and feed them to collectd
 
+```example-ssl.py``` A simple script to query a remote bitcoind node that is available via SSL on port 443
 
+Notes
+=====
+For ```example-ssl.py``` you will need to set the path to the self-signed ```pem``` file or the SSL connection
+will fail:
+```
+export SSL_CERT_FILE=<path-to-pem-file>/server.pem
+```
+If you are using a self-signed ```pem``` for the reverse proxy on the bitcoin node, just copy that file to the
+local directory and set the environment variable as shown above before running the example Python code.
